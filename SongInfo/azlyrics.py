@@ -9,7 +9,7 @@ from fuzzywuzzy import process
 Looks for lyrics of given song on azlyrics.com
 return None if not found
 """
-def get_lyrics(song_name, song_artist):
+def azlyrics(song_name, song_artist):
     # lowercase the arguement
     song_name = song_name.lower()
     song_artist = song_artist.lower()
